@@ -14,8 +14,8 @@ const Header = () => {
 
   return (
     <>
-      <header className="bg-[#FFF1ED] shadow-lg sticky top-0 z-50 px-4">
-        <div className="flex justify-between items-center py-4">
+      <header className="bg-[#FFF1ED] shadow-lg sticky top-0 z-50 pr-5">
+        <div className="flex justify-between items-center ">
           <div className="flex items-center">
             <img src="./l2.png" alt="Logo" className="h-32 w-auto mr-4" />
           </div>
@@ -94,7 +94,7 @@ const Header = () => {
           </nav>
 
           <div className="hidden lg:flex items-center space-x-4">
-            <p className="bg-green-500 hover:bg-blue-500 text-white font-semibold px-4 py-2 rounded inline-block">
+            <p className="bg-green-500 hover:bg-blue-500 text-white font-semibold px-4 py-2 rounded inline-block cursor-pointer">
               Book An Appointment
             </p>
           </div>

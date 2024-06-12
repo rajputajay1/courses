@@ -5,18 +5,20 @@ import Commen from '../../Component/Commen/Commen'
 const Contect = () => {
     return (
         <>
-            <Commen/>
 
 
+            <div className='lg:px-10 max-lg:px-5'>
+
+        
             <p className='text-6xl font-extrabold text-gray-800 text-center max-lg:text-3xl max-md:text-2xl mt-4 '>Contact Us</p>
             <div className=' pt-7'>
                 <p className='text-3xl font-bold text-gray-700 text-center max-lg:text-[22px] '>Get In Touch</p>
                 <p className='text-gray-700 font-semibold text-[20px] max-lg:text-[18px] text-center pt-2'>We’d love to hear from you! Whether you have questions about our services, need more information, or want to schedule an appointment, please reach out to us.</p>
             </div>
-            <div className='flex mt-5 max-lg:flex-col'>
+            <div className='flex mt-5 max-lg:flex-col  gap-10'>
 
 
-                <div className='lg:w-[30%]  m-5 mt-5'>
+                <div className='lg:w-[30%]   mt-5'>
                     <p className='text-4xl font-extrabold max-lg:text-3xl  max-lg:text-center  pb-3'>Corporate Office</p>
                     <div className='bg-[#108aca] h-1 w-10 max-lg:w-28 max-lg:mx-auto'></div>
                     <div className=' flex gap-5   max-lg:flex-col max-lg:justify-center  max-lg:items-center mt-5  max-lg:text-center'>
@@ -48,7 +50,7 @@ const Contect = () => {
                     </div>
                 </div>
 
-                <div class="bg-white border-4 rounded-lg shadow relative m-5 lg:w-[70%] ">
+                <div class="bg-white border-4 rounded-lg shadow relative  lg:w-[70%] ">
                     <div className='text-center pt-8'>
                       
                         <div className='bg-[#108aca] h-[2px] mt-5 max-lg:mt-3 w-52 mx-auto max-lg:w-40'></div>
@@ -90,7 +92,8 @@ const Contect = () => {
 
 
                 </div>
-            </div>
+                </div>
+                </div>
           
         </>
     )

@@ -4,15 +4,14 @@ import Commen from '../../Component/Commen/Commen'
 const CarrerCounselling = () => {
     return (
         <>
-           < Commen/>
-            <div className='my-10'>
+            <div className='my-10 lg:px-10 max-lg:px-5'>
                 <p className='text-6xl font-extrabold text-gray-800 text-center max-lg:text-3xl max-md:text-2xl'>
                     CAREER COUNSELLING</p>
 
                 
 
 
-                    <div className='flex justify-around gap-10 flex-wrap max-lg:gap-1 px-5'>
+                    <div className='flex justify-between gap-10 flex-wrap max-lg:gap-1 '>
 
 
 

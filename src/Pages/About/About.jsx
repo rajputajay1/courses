@@ -56,7 +56,6 @@ const About = () => {
     <>
 
 
-      <Commen />
 
       <div className='lg:px-10 max-lg:px-5'>
 
@@ -93,11 +92,11 @@ const About = () => {
         </div>
 
         <p className='text-6xl font-extrabold text-gray-800 text-center max-lg:text-3xl max-md:text-2xl mt-6'>Why Us</p>
-        <div className='grid grid-cols-3 lg:gap-10  max-lg:grid-cols-2 max-md:grid-cols-1 pb-10'>
+        <div className='grid grid-cols-3 gap-10  max-lg:grid-cols-2 max-md:grid-cols-1 mt-7 '>
 
 
           {whyUs.map((why) => (
-            <div className="relative flex justify-center items-center dark:bg-gray-800 w-full  pt-10 ">
+            <div className="relative flex justify-center items-center dark:bg-gray-800 w-full   ">
               <div className="relative cursor-pointer dark:text-white">
                 <span className="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-indigo-500 rounded-lg dark:bg-gray-200"></span>
                 <div className="relative bg-white dark:bg-gray-800 border-2 border-indigo-500 dark:border-gray-300 rounded-lg hover:scale-105 transition duration-500">

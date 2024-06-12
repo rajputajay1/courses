@@ -4,13 +4,17 @@ import Commen from '../../Component/Commen/Commen'
 function Main() {
     return (
         <>
-            <Commen />
+            {/* <Commen /> */}
+
+            <div className='lg:px-10 max-lg:px-5'>
+
+       
 
 
-            <div className='mt-5'>
+            <div className='mt-5 '>
 
-                <div className='flex lg:mt-5 max-lg:mt-3  gap-10  lg:px-20 max-lg:flex-col  max-lg:px-5'>
-                    <div className='lg:w-[60%] lg:mt-5  '>
+                <div className='flex lg:mt-5 max-lg:mt-3  gap-10   max-lg:flex-col  max-lg:px-5'>
+                    <div className=' lg:mt-5  '>
 
 
                         <p className='text-[18px] font-normal mt-2 max-sm:text-[18px] '>
@@ -21,7 +25,7 @@ function Main() {
                     </div>
 
 
-                    <img src="./dmit.png" alt="" className='lg:w-[40%] max-lg:w-full h-60 mt-5' />
+                    {/* <img src="./dmit.png" alt="" className='lg:w-[40%] max-lg:w-full h-60 mt-5' /> */}
 
                 </div>
             </div>
@@ -29,7 +33,7 @@ function Main() {
                 <div className='flex justify-center flex-col items-center'>
                     <p className='text-2xl font-bold max-lg:text-[18px] text-center max-lg:px-5'>Get ready to scientifically map yourself !!</p>
 
-                    <p className='text-[18px] max-lg:text-[18px] max-lg:px-5 font-semibold text-white inline-block lg:px-28 py-2 mt-2 rounded-sm bg-[#616161] cursor-pointer'>TAKE YOUR DMIT TEST NOW</p>
+                    <p className='text-[18px] max-lg:text-[18px] max-lg:px-5 font-semibold text-white inline-block lg:px-28 py-2 mt-2 rounded-sm bg-[#616161] hover:bg-blue-500 cursor-pointer'>TAKE YOUR DMIT TEST NOW</p>
 
                 </div>
 
@@ -38,7 +42,7 @@ function Main() {
             <div className='mt-5'>
                 <p className='text-6xl font-extrabold text-gray-800 text-center max-lg:text-3xl max-md:text-2xl'>
                     DERMATOGLYPHICS (DMIT)</p>
-                <div className='flex lg:mt-5 max-lg:mt-3  gap-10  lg:px-20 max-lg:flex-col '>
+                <div className='flex lg:mt-5 max-lg:mt-3  gap-10   max-lg:flex-col '>
                     <div className='lg:w-[60%] lg:mt-5 max-lg:px-5 '>
 
 
@@ -64,7 +68,7 @@ function Main() {
             <div className='mt-8 px-5'>
                 <p className='text-6xl font-extrabold text-gray-800 text-center max-lg:text-3xl max-md:text-2xl'>
                     CAREER COUNSELLING</p>
-                <div className='flex lg:mt-5 max-lg:mt-3  gap-10  lg:px-20 max-lg:flex-col'>
+                <div className='flex lg:mt-5 max-lg:mt-3  gap-10   max-lg:flex-col'>
                     <img src="./carrer.png" alt="" />
 
                     <div className='lg:w-[60%] lg:mt-4'>
@@ -94,7 +98,8 @@ function Main() {
 
 
                 </div>
-            </div>
+                </div>
+                </div>
         </>
     )
 }

@@ -5,39 +5,22 @@ const Dmit = () => {
 
     return (
         <>
-            < Commen />
 
-            <div className='my-7 px-10'>
+            <div className='my-7 lg:px-10 max-lg:px-5'>
 
+                <div className=''>
                 <p className='text-6xl font-extrabold text-gray-800 text-center max-lg:text-3xl max-md:text-2xl'>
                     DMIT</p>
                 <p className='font-normal text-gray-700 dark:text-gray-400 text-[18px] pt-5'>The Dermatoglyphic Multiple Intelligence Test (DMIT) is a psychological assessment tool that claims to evaluate an individual's innate intelligences and potential based on the analysis of fingerprints and dermatoglyphic patterns. Dermatoglyphics refers to the study of the intricate patterns of ridges present on the fingertips, palms, toes, and soles, which are believed to be unique to each individual and form during fetal development.
                 </p>
-                {/* <p className='text-3xl font-bold max-lg:text-2xl text-gray-800 text-center'>Key Components of DMIT
-                    </p> */}
-                {/* <div className=' flex justify-around flex-wrap'>
-                  
-                    <div className="block max-w-md p-3 mt-7 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
 
-                        <h5 className="mb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white max-lg:text-2xl"> Dermatoglyphics</h5>
-                        <p className="font-normal text-gray-700 dark:text-gray-400 text-[18px]">This is the scientific study of fingerprint patterns, which includes loops, whorls, and arches. These patterns are thought to be linked to genetic and neurological development.
-                        </p>
-                    </div>
-                    <div className="block max-w-md p-3 mt-7 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-
-                        <h5 className="mb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white max-lg:text-2xl"> Multiple Intelligences Theory</h5>
-                        <p className="font-normal text-gray-700 dark:text-gray-400 text-[18px]"> Proposed by Howard Gardner, this theory suggests that intelligence is not a single, uniform attribute, but rather a collection of distinct types of intelligences such as linguistic, logical-mathematical, musical, spatial, bodily-kinesthetic, interpersonal, intrapersonal, and naturalistic intelligences.
-
-                        </p>
-                    </div>
-
-                </div> */}
-
-                {/* how dmit works */}
+                </div>
+               
+             
                 <p className='text-3xl font-bold max-lg:text-2xl text-gray-800 text-center mt-5'>How DMIT Works
 
                 </p>
-                <div className='  flex justify-around flex-wrap'>
+                <div className='  flex justify-between flex-wrap'>
 
                     <div className="block max-w-md p-3 mt-7 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
 
@@ -64,12 +47,10 @@ const Dmit = () => {
 
                 </div>
 
-                {/* end    how dmit works */}
-
-                {/* choose dmit */}
+              
                 <p className='text-3xl font-bold max-lg:text-2xl text-gray-800 text-center mt-5'>Why Choose DMIT?
                 </p>
-                <div className='  flex justify-around flex-wrap'>
+                <div className='  flex justify-between flex-wrap'>
 
                     <div className="block max-w-md p-3 mt-7 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
 
@@ -104,7 +85,7 @@ const Dmit = () => {
                 <p className='text-3xl font-bold max-lg:text-2xl text-gray-800 text-center mt-5'>Who Can Benefit from DMIT?
 
                 </p>
-                <div className='  flex justify-around flex-wrap'>
+                <div className='  flex justify-between flex-wrap'>
 
                     <div className="block max-w-md p-3 mt-7 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
 

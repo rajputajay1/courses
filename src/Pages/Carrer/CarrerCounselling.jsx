@@ -272,8 +272,17 @@ const CarrerCounselling = () => {
     return (
         <>
             <div className='my-10 lg:px-10 max-lg:px-5'>
-                <p className='text-6xl font-extrabold text-gray-800 text-center max-lg:text-3xl max-md:text-2xl'>
-                    CAREER COUNSELLING</p>
+                <img src="./ca.png" alt=""  className='w-full h-screen' />
+                <motion.p className='text-4xl underline   font-extrabold text-black  text-center max-lg:text-3xl max-md:text-2xl'
+
+                    initial={{ x: -1000 }}
+                    animate={{ x: [1000, 0] }}
+                    transition={{
+                        duration: 3,
+
+                    }}
+                >
+                    CAREER COUNSELLING</motion.p>
                 <div className='grid grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1 '>
 
                     {careerList.map((career, i) => (
@@ -292,8 +301,15 @@ const CarrerCounselling = () => {
 
                 </div>
 
-                <p className='text-6xl font-extrabold text-gray-800 text-center max-lg:text-3xl max-md:text-2xl mt-10'>
-                    IMPORTANCE OF  CAREER COUNSELLING</p>
+                <motion.p className='text-4xl underline   font-extrabold text-black  text-center max-lg:text-3xl max-md:text-2xl mt-10'
+                    initial={{ x: -1000, }}
+                    animate={{ x: 0 }}
+                    transition={{
+                        duration: 3,
+
+                    }}
+                >
+                    IMPORTANCE OF  CAREER COUNSELLING</motion.p>
 
                 <div className='grid grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1  mt-5'>
                     {careerCounselingImportance.map((career, i) => (
@@ -310,7 +326,7 @@ const CarrerCounselling = () => {
                     ))}
                 </div>
 
-                <p className='text-6xl font-extrabold text-gray-800 text-center max-lg:text-3xl max-md:text-2xl mt-10'>
+                <p className='text-4xl underline   font-extrabold text-black  text-center max-lg:text-3xl max-md:text-2xl mt-10'>
                     TOOLS REQUIRED FOR CAREER COUNSELLING</p>
 
 
@@ -329,7 +345,7 @@ const CarrerCounselling = () => {
                             <div className="font-normal text-gray-700 dark:text-gray-400 text-[18px]">
                                 {career.points.map((points, index) => (
                                     <div key={index} className="mb-4">
-                                        <h6 className="font-bold text-2xl text-gray-800 mt-4 max-lg:text-[20px]">{points.title}</h6>
+                                        <h6 className="font-bold text-2xl text-gray-700 mt-4 max-lg:text-[20px]">{points.title}</h6>
                                         <p className='text-[18px] font-normal mt-2'>{points.subtittle}</p>
                                     </div>
                                 ))}

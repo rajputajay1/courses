@@ -142,19 +142,44 @@ const Dmit = () => {
     return (
         <>
 
-            <div className='my-7 lg:px-10 max-lg:px-5'>
+            <div className='my-10 lg:px-10 max-lg:px-5'>
 
+                <motion.img src="./d.png" alt="" className='w-full h-screen'
+                  initial={{ x: -1000 }}
+                  animate={{ x: [1000, 0] }}
+                  transition={{
+                      duration: 3,
+  
+                  }}
+                />
                 <div className=''>
-                <p className='text-6xl font-extrabold text-gray-800 text-center max-lg:text-3xl max-md:text-2xl mt-10'>
-              DMIT</p>
+                    {/* <motion.p className='text-4xl font-extrabold text-black underline text-center max-lg:text-3xl max-md:text-2xl mt-10
+                
+                '
+                initial={{ x: -1000 }}
+                animate={{ x: [1000, 0] }}
+                transition={{
+                    duration: 3,
+
+                }}
+                    
+                    >
+              DMIT</motion.p> */}
                 <p className='font-normal text-gray-700 dark:text-gray-400 text-[18px] pt-5'>The Dermatoglyphic Multiple Intelligence Test (DMIT) is a psychological assessment tool that claims to evaluate an individual's innate intelligences and potential based on the analysis of fingerprints and dermatoglyphic patterns. Dermatoglyphics refers to the study of the intricate patterns of ridges present on the fingertips, palms, toes, and soles, which are believed to be unique to each individual and form during fetal development.
                 </p>
 
                 </div>
                
              
-                  <p className='text-6xl font-extrabold text-gray-800 text-center max-lg:text-3xl max-md:text-2xl mt-10'>
-                HOW  DMIT WORK</p>
+                <motion.p className='text-4xl font-extrabold text-black underline text-center max-lg:text-3xl max-md:text-2xl mt-10'
+                     initial={{ x: -1000, }}
+                     animate={{ x: 0 }}
+                     transition={{
+                       duration: 3,
+             
+                     }}
+                >
+                HOW  DMIT WORK</motion.p>
                 <div className='  flex justify-between flex-wrap'>
 
                     <div className="block max-w-md p-3 mt-7 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
@@ -183,8 +208,15 @@ const Dmit = () => {
                 </div>
 
               
-                <p className='text-6xl font-extrabold text-gray-800 text-center max-lg:text-3xl max-md:text-2xl mt-10'>
-                WHY CHOOSE OF DMIT</p>
+                <motion.p className='text-4xl font-extrabold text-black underline text-center max-lg:text-3xl max-md:text-2xl mt-10'
+                     initial={{ x: -1000 }}
+                     animate={{ x: [1000, 0] }}
+                     transition={{
+                         duration: 3,
+     
+                     }}
+                >
+                WHY CHOOSE OF DMIT</motion.p>
                 <div className='  flex justify-between flex-wrap'>
 
                     <div className="block max-w-md p-3 mt-7 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
@@ -217,8 +249,15 @@ const Dmit = () => {
                 </div>
 
                 {/* benifits */}
-                <p className='text-6xl font-extrabold text-gray-800 text-center max-lg:text-3xl max-md:text-2xl mt-10'>
-                BENIFITS OF DMIT</p>
+                <motion.p className='text-4xl font-extrabold text-black underline text-center max-lg:text-3xl max-md:text-2xl mt-10'
+                     initial={{ x: -1000, }}
+                     animate={{ x: 0 }}
+                     transition={{
+                       duration: 3,
+             
+                     }}
+                >
+                BENIFITS OF DMIT</motion.p>
                 <div className='  flex justify-between flex-wrap'>
 
                     <div className="block max-w-md p-3 mt-7 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
@@ -256,8 +295,15 @@ const Dmit = () => {
                     </div>
 
                 </div>
-                <p className='text-6xl font-extrabold text-gray-800 text-center max-lg:text-3xl max-md:text-2xl mt-10'>
-                FEATURES OF DMIT</p>
+                <motion.p className='text-4xl font-extrabold text-black underline text-center max-lg:text-3xl max-md:text-2xl mt-10'
+                  initial={{ x: -1000 }}
+                  animate={{ x: [1000, 0] }}
+                  transition={{
+                      duration: 3,
+  
+                  }}
+                >
+                FEATURES OF DMIT</motion.p>
 
                 <div className='grid grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1  mt-5'>
                     {fetureDmit.map((feature, i) => (
@@ -274,7 +320,7 @@ const Dmit = () => {
                             <div className="font-normal text-gray-700 dark:text-gray-400 text-[18px]">
                                 {feature.points.map((points, index) => (
                                     <div key={index} className="mb-4">
-                                        <h6 className="font-bold text-2xl text-gray-800 mt-4 max-lg:text-[20px]">{points.title}</h6>
+                                        <h6 className="font-bold text-2xl text-gray-700 mt-4 max-lg:text-[20px]">{points.title}</h6>
                                         <p className='text-[18px] font-normal mt-2'>{points.subtittle}</p>
                                     </div>
                                 ))}
@@ -284,8 +330,15 @@ const Dmit = () => {
                 </div>
               
 
-                <p className='text-6xl font-extrabold text-gray-800 text-center max-lg:text-3xl max-md:text-2xl mt-10'>START YOUR JOURNEY TODAY!
-                </p>
+                <motion.p className='text-4xl font-extrabold text-black underline text-center max-lg:text-3xl max-md:text-2xl mt-10'
+                    initial={{ x: -1000 }}
+                animate={{ x: [1000, 0] }}
+                transition={{
+                    duration: 3,
+
+                }}
+                >START YOUR JOURNEY TODAY!
+                </motion.p>
                 <p className='font-normal text-gray-700 dark:text-gray-400 text-[18px] pt-5' >Embark on a transformative journey of self-discovery with DMIT. Unlock your true potential and achieve greater success in every aspect of your life. Contact us today to schedule your DMIT assessment and take the first step towards a brighter, more fulfilling future.</p>
 
 

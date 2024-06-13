@@ -1,17 +1,18 @@
 import React from 'react'
 import Commen from '../../Component/Commen/Commen'
+import { motion } from "framer-motion"
 const About = () => {
   const aboutList = [
     {
       id: 1,
-      image: "./ourvission.jpg",
+      image: "./vission.jpg",
 
       title: 'Our Vision',
       subtittle: "   To be the premier provider of DMIT and Midbrain Activation services, empowering individuals to achieve their fullest potential and make informed career choices.career path, ensuring success and satisfaction."
     },
     {
       id: 1,
-      image: "./ourmission.jpg",
+      image: "./mission.jpg",
       title: 'Our Mission',
       subtittle: "To deliver accurate and insightful DMIT analysis and effective Midbrain Activation training, equipping our clients with the knowledge and tools needed to excel in their personal and professional lives."
     },
@@ -57,10 +58,24 @@ const About = () => {
 
 
 
-      <div className='lg:px-10 max-lg:px-5'>
+      <div className='lg:px-10 max-lg:px-5  my-10'>
 
+        <motion.img src="./about.jpg" alt="" className='w-full lg:h-[600px] '
+        
+        initial={{ x: -1000, }}
+        animate={{ x: 0 }}
+        transition={{
+          duration: 3,
 
-        <p className='text-6xl font-extrabold text-gray-800 text-center max-lg:text-3xl max-md:text-2xl mt-3'>ABOUT US</p>
+        }}
+        />
+
+        {/* <motion.p
+          
+          className='text-5xl font-semibold text-black text-center max-lg:text-3xl max-md:text-2xl mt-3 underline'
+
+      
+        >ABOUT US</motion.p> */}
         <div className='text-[18px] font-normal  text-gray-700  pt-5'>
           Intelliflex 360 Degree is a leading provider of DMIT software and Midbrain Activation training in North India. Our goal is to unlock the hidden potential in every individual through scientifically proven techniques and personalized guidance. By understanding one’s inherent strengths, we help align them with the right career path, ensuring success and satisfaction.
         </div>
@@ -91,7 +106,7 @@ const About = () => {
           ))}
         </div>
 
-        <p className='text-6xl font-extrabold text-gray-800 text-center max-lg:text-3xl max-md:text-2xl mt-6'>Why Us</p>
+        <p className='text-5xl font-semibold text-black text-center max-lg:text-3xl max-md:text-2xl mt-6 underline'>Why Us</p>
         <div className='grid grid-cols-3 gap-10  max-lg:grid-cols-2 max-md:grid-cols-1 mt-7 '>
 
 
@@ -115,6 +130,8 @@ const About = () => {
             </div>
           ))}
         </div>
+
+        <img src="./why.jpg" alt=""  className='w-full mt-10'/>
       </div>
     </>
   )

@@ -1,7 +1,143 @@
 import React from 'react'
 
 import Commen from '../../Component/Commen/Commen'
+
+import {motion} from "framer-motion"
 const Dmit = () => {
+
+    const fetureDmit = [
+        {
+            title: 'Fingerprint Analysis',
+            points: [
+                {
+                    title: 'Pattern Identification',
+                    subtittle: "DMIT involves detailed analysis of fingerprint patterns such as loops, whorls, and arches."
+                },
+                {
+                    title: 'Quantitative Data',
+                    subtittle: "The number, type, and distribution of ridges are quantified and analyzed."
+                }
+            ]
+        },
+        {
+            title: ' Fingerprints to Brain Function',
+            points: [
+                {
+                    title: 'Neural Connections',
+                    subtittle: "The test is based on the premise that fingerprints and brain development are interconnected, suggesting that the patterns can provide insights into cognitive functions."
+                },
+                {
+                    title: 'Lateralization',
+                    subtittle: "Analysis includes understanding which areas of the brain are more developed, based on which hand’s fingerprints are more complex or prominent."
+                }
+            ]
+        },
+        {
+            title: 'Multiple Intelligences Profiling',
+            points: [
+                {
+                    title: 'Assessment',
+                    subtittle: "DMIT aims to profile an individual’s strengths across Howard Gardner’s eight types of intelligences: Linguistic, Logical-Mathematical, Spatial, Bodily-Kinesthetic, Musical, Interpersonal, Intrapersonal, Naturalistic."
+                },
+                {
+                    title: 'Customized Reports',
+                    subtittle: "The analysis generates a report that provides insights into which intelligences are more dominant."
+                }
+            ]
+        },
+        {
+            title: 'Personality Traits',
+            points: [
+                {
+                    title: 'Behavioral Insights',
+                    subtittle: "The test includes an analysis of potential personality traits, such as leadership abilities, emotional stability, and social behavior."
+                },
+                {
+                    title: 'Learning Styles',
+                    subtittle: "DMIT identifies preferred learning styles (visual, auditory, kinesthetic) based on fingerprint patterns."
+                }
+            ]
+        },
+        {
+            title: 'Developmental Potential',
+            points: [
+                {
+                    title: 'Career Guidance',
+                    subtittle: "The results are often used to suggest suitable career paths or educational tracks for individuals, particularly students."
+                },
+                {
+                    title: 'Skill Development',
+                    subtittle: "Recommendations for developing certain skills or intelligences based on identified strengths and weaknesses."
+                }
+            ]
+        },
+        {
+            title: 'Parental and Educational ',
+            points: [
+                {
+                    title: 'Parenting Tips',
+                    subtittle: "For children, the reports often include advice for parents on how to nurture their child’s talents and manage areas of improvement."
+                },
+                {
+                    title: 'Educational Strategies',
+                    subtittle: "Educators may use DMIT reports to tailor teaching methods to individual students’ cognitive and learning styles."
+                }
+            ]
+        },
+        {
+            title: 'Holistic Approach',
+            points: [
+                {
+                    title: 'Comprehensive Analysis',
+                    subtittle: "DMIT aims to provide a holistic view of an individual’s potential, including cognitive abilities, personality traits, and preferred learning styles."
+                },
+                {
+                    title: 'Personalized Recommendations',
+                    subtittle: "The test provides personalized development plans to help individuals maximize their potential."
+                }
+            ]
+        },
+        {
+            title: 'User-Friendly Process',
+            points: [
+                {
+                    title: 'Non-Invasive',
+                    subtittle: "The fingerprint collection process is simple, non-invasive, and quick."
+                },
+                {
+                    title: 'Accessibility',
+                    subtittle: "Suitable for all age groups, from young children to adults."
+                }
+            ]
+        },
+        {
+            title: 'Technological Integration',
+            points: [
+                {
+                    title: 'Advanced Software',
+                    subtittle: "Utilizes sophisticated software for fingerprint analysis and data interpretation."
+                },
+                {
+                    title: 'Detailed Reports',
+                    subtittle: "Generates detailed and visually appealing reports that are easy to understand."
+                }
+            ]
+        },
+        {
+            title: 'Commercial Services',
+            points: [
+                {
+                    title: 'Consultation',
+                    subtittle: "Often provided by certified consultants or companies specializing in DMIT."
+                },
+                {
+                    title: 'Workshops and Training',
+                    subtittle: "Some services include workshops and training sessions based on DMIT results."
+                }
+            ]
+        }
+    ];
+    
 
     return (
         <>
@@ -9,17 +145,16 @@ const Dmit = () => {
             <div className='my-7 lg:px-10 max-lg:px-5'>
 
                 <div className=''>
-                <p className='text-6xl font-extrabold text-gray-800 text-center max-lg:text-3xl max-md:text-2xl'>
-                    DMIT</p>
+                <p className='text-6xl font-extrabold text-gray-800 text-center max-lg:text-3xl max-md:text-2xl mt-10'>
+              DMIT</p>
                 <p className='font-normal text-gray-700 dark:text-gray-400 text-[18px] pt-5'>The Dermatoglyphic Multiple Intelligence Test (DMIT) is a psychological assessment tool that claims to evaluate an individual's innate intelligences and potential based on the analysis of fingerprints and dermatoglyphic patterns. Dermatoglyphics refers to the study of the intricate patterns of ridges present on the fingertips, palms, toes, and soles, which are believed to be unique to each individual and form during fetal development.
                 </p>
 
                 </div>
                
              
-                <p className='text-3xl font-bold max-lg:text-2xl text-gray-800 text-center mt-5'>How DMIT Works
-
-                </p>
+                  <p className='text-6xl font-extrabold text-gray-800 text-center max-lg:text-3xl max-md:text-2xl mt-10'>
+                HOW  DMIT WORK</p>
                 <div className='  flex justify-between flex-wrap'>
 
                     <div className="block max-w-md p-3 mt-7 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
@@ -48,8 +183,8 @@ const Dmit = () => {
                 </div>
 
               
-                <p className='text-3xl font-bold max-lg:text-2xl text-gray-800 text-center mt-5'>Why Choose DMIT?
-                </p>
+                <p className='text-6xl font-extrabold text-gray-800 text-center max-lg:text-3xl max-md:text-2xl mt-10'>
+                WHY CHOOSE OF DMIT</p>
                 <div className='  flex justify-between flex-wrap'>
 
                     <div className="block max-w-md p-3 mt-7 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
@@ -82,9 +217,8 @@ const Dmit = () => {
                 </div>
 
                 {/* benifits */}
-                <p className='text-3xl font-bold max-lg:text-2xl text-gray-800 text-center mt-5'>Who Can Benefit from DMIT?
-
-                </p>
+                <p className='text-6xl font-extrabold text-gray-800 text-center max-lg:text-3xl max-md:text-2xl mt-10'>
+                BENIFITS OF DMIT</p>
                 <div className='  flex justify-between flex-wrap'>
 
                     <div className="block max-w-md p-3 mt-7 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
@@ -122,8 +256,35 @@ const Dmit = () => {
                     </div>
 
                 </div>
+                <p className='text-6xl font-extrabold text-gray-800 text-center max-lg:text-3xl max-md:text-2xl mt-10'>
+                FEATURES OF DMIT</p>
 
-                <p className='text-3xl font-bold max-lg:text-2xl text-gray-800 text-center mt-5'>Start Your Journey Today!
+                <div className='grid grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1  mt-5'>
+                    {fetureDmit.map((feature, i) => (
+                        <motion.div
+                            key={i}
+                            className="block max-w-md p-3 mt-7 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+                            initial={{ opacity: 0, translateX: i % 2 === 0 ? -50 : 50, translateY: -50 }}
+                            animate={{ opacity: 1, translateX: 0, translateY: 0 }}
+                            transition={{ duration: 1, delay: i * 0.3 }}
+                        >
+                            <h5 className="mb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white max-lg:text-2xl">
+                                {feature.title}
+                            </h5>
+                            <div className="font-normal text-gray-700 dark:text-gray-400 text-[18px]">
+                                {feature.points.map((points, index) => (
+                                    <div key={index} className="mb-4">
+                                        <h6 className="font-bold text-2xl text-gray-800 mt-4 max-lg:text-[20px]">{points.title}</h6>
+                                        <p className='text-[18px] font-normal mt-2'>{points.subtittle}</p>
+                                    </div>
+                                ))}
+                            </div>
+                        </motion.div>
+                    ))}
+                </div>
+              
+
+                <p className='text-6xl font-extrabold text-gray-800 text-center max-lg:text-3xl max-md:text-2xl mt-10'>START YOUR JOURNEY TODAY!
                 </p>
                 <p className='font-normal text-gray-700 dark:text-gray-400 text-[18px] pt-5' >Embark on a transformative journey of self-discovery with DMIT. Unlock your true potential and achieve greater success in every aspect of your life. Contact us today to schedule your DMIT assessment and take the first step towards a brighter, more fulfilling future.</p>
 

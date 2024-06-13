@@ -34,7 +34,7 @@ const Header = () => {
                 <NavLink
                   to={"/"}
                   className={({ isActive }) =>
-                    `hover:text-secondary font-bold cursor-pointer ${isActive ? 'text-blue-500' : 'text-black'}`
+                    `hover:text-secondary font-bold cursor-pointer   ${isActive ? 'text-blue-500' : 'text-black'}`
                   }
                 >
                   HOME
@@ -107,7 +107,7 @@ const Header = () => {
         } transition-transform lg:hidden`}
         // Added z-index for the overlay
       >
-        <div className="absolute top-40 left-0 w-56 bg-white h-full shadow-lg p-4" style={{ zIndex: '70' }}> {/* Added z-index for the sidebar */}
+        <div className="absolute top-28 left-0 w-56 bg-white h-full shadow-lg p-4" style={{ zIndex: '10' }}> {/* Added z-index for the sidebar */}
        
           <nav className="mt-4">
             <ul className="space-y-4 text-black" onClick={closeSidebar}>

@@ -283,7 +283,7 @@ const CarrerCounselling = () => {
                     }}
                 >
                     CAREER COUNSELLING</motion.p>
-                <motion.img src="./ca.png" alt="" className='w-full lg:h-screen mt-5'
+                <motion.img src="./ca.png" alt="" className='w-full lg:h-[600px] mt-5'
                     initial={{ x: -1000, }}
                     animate={{ x: 0 }}
                     transition={{

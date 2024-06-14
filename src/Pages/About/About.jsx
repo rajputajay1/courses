@@ -60,7 +60,7 @@ const About = () => {
 
       <div className='lg:px-10 max-lg:px-5  my-10'>
 
-        <motion.img src="./about.jpg" alt="" className='w-full lg:h-[600px] '
+        <motion.img src="./about.jpg" alt="" className='w-full lg:h-[500px] '
         
         initial={{ x: -1000, }}
         animate={{ x: 0 }}

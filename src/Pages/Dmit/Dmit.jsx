@@ -144,7 +144,7 @@ const Dmit = () => {
 
             <div className='my-10 lg:px-10 max-lg:px-5'>
 
-                <motion.img src="./d.jpg" alt="" className='w-full lg:h-screen'
+                <motion.img src="./d.jpg" alt="" className='w-full lg:h-[600px]'
                     initial={{ x: -1000 }}
                     animate={{ x: [1000, 0] }}
                     transition={{
@@ -339,7 +339,7 @@ const Dmit = () => {
                     }}
                 >START YOUR JOURNEY TODAY!
                 </motion.p>
-                <p className='font-normal text-gray-700 dark:text-gray-300 text-[18px] pt-5' >Embark on a transformative journey of self-discovery with DMIT. Unlock your true potential and achieve greater success in every aspect of your life. Contact us today to schedule your DMIT assessment and take the first step towards a brighter, more fulfilling future.</p>
+                <p className='font-normal  dark:text-gray-300 text-[18px] pt-5' >Embark on a transformative journey of self-discovery with DMIT. Unlock your true potential and achieve greater success in every aspect of your life. Contact us today to schedule your DMIT assessment and take the first step towards a brighter, more fulfilling future.</p>
 
 
             </div>

@@ -202,7 +202,6 @@ function Main() {
                             initial={{ x: -1200 }}
                             animate={{ x: 0 }}
                             transition={{ duration: 3 }}
-                            whileHover={{ scale: 0.9, opacity: 1 }}
                             controls // Optional: adds play/pause controls to the video
                         />
                     </div>

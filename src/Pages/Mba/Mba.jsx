@@ -46,7 +46,7 @@ const Mba = () => {
                 {/* <p className='text-6xl font-extrabold text-gray-800 text-center max-lg:text-3xl max-md:text-2xl'>
                     MID BRAIN ACTIVITIES  (MBA)</p> */}
                 
-                <img src="./brain.png" alt=""  className='w-full lg:h-screen' />
+                <img src="./brain.png" alt=""  className='w-full lg:h-[600px]' />
                 <p className='font-normal text-[18px] pt-5'>Mid Brain Activities typically refer to techniques aimed at stimulating and enhancing the functions of the midbrain, which is responsible for various essential functions, including vision, hearing, motor control, sleep/wake regulation, arousal, and temperature regulation. Here are some key points often associated with Mid Brain Activities:
 
                 </p>

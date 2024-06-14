@@ -10,7 +10,7 @@ const Contect = () => {
 
             <div className='lg:px-10 max-lg:px-5 my-10'>
                 {/* <img src="./contect.jpg" alt="" className='w-full h-screen mt-10' */}
-                   <motion.img src="./contect.jpg" alt="" className='w-full lg:h-screen '
+                   <motion.img src="./contect.jpg" alt="" className='w-full lg:h-[600px] '
                    initial={{ x: -1000 }}
                    animate={{ x: [1000, 0] }}
                    transition={{

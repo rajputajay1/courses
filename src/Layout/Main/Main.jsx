@@ -173,37 +173,37 @@ function Main() {
                                 duration: 3,
                             }}
                             whileHover={{ scale: 0.9, opacity: 1 }}
-                         >
+                        >
                             <p className='text-2xl font-bold text-gray-800 max-lg:text-[18px]'>
 
                                 Thoughts, behaviour, relationships, emotional regulation and more- decoded and defined
                             </p>
                             <p className='text-[18px] font-normal mt-1 max-sm:text-[18px]'>
-                            <span className='font-bold text-[20px]'>1.{" "}</span>
+                                <span className='font-bold text-[20px]'>1.{" "}</span>
 
                                 Know the qualities, traits, and actions that will help and build long-term relationships
                             </p>
 
                             <p className='text-[18px] font-normal mt-1 max-sm:text-[18px]'>
-                            <span className='font-bold text-[20px]'>2.{" "}</span>
+                                <span className='font-bold text-[20px]'>2.{" "}</span>
 
                                 Identify a good candidate for a particular work setting or even a social environment                            </p>
 
                             <p className='text-[18px] font-normal mt-1 max-sm:text-[18px]'>
-                            <span className='font-bold text-[20px]'>3.{" "}</span>
+                                <span className='font-bold text-[20px]'>3.{" "}</span>
 
                                 Make the most of personal characteristics by understanding self-motivation, discipline, leadership and other soft skills
                             </p>
                         </motion.div>
 
-                        <motion.img src="./per.png" alt=""
+                        <motion.video
+                            src="./p.mp4"
                             className='lg:h-96 lg:w-[45%]'
-                            initial={{ x: -1200, }}
+                            initial={{ x: -1200 }}
                             animate={{ x: 0 }}
-                            transition={{
-                                duration: 3,
-                            }}
+                            transition={{ duration: 3 }}
                             whileHover={{ scale: 0.9, opacity: 1 }}
+                            controls // Optional: adds play/pause controls to the video
                         />
                     </div>
                 </div>

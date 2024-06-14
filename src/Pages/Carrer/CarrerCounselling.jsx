@@ -272,7 +272,14 @@ const CarrerCounselling = () => {
     return (
         <>
             <div className='my-10 lg:px-10 max-lg:px-5'>
-                <img src="./ca.png" alt=""  className='w-full h-screen' />
+            <motion.img src="./ca.png" alt="" className='w-full h-screen'
+                           initial={{ x: -1000, }}
+                           animate={{ x: 0 }}
+                           transition={{
+                               duration: 3,
+       
+                           }}
+                />
                 <motion.p className='text-4xl underline   font-extrabold text-black  text-center max-lg:text-3xl max-md:text-2xl'
 
                     initial={{ x: -1000 }}
@@ -294,7 +301,7 @@ const CarrerCounselling = () => {
                         >
 
                             <h5 className="mb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white max-lg:text-2xl">	{career.title} </h5>
-                            <p className="font-normal text-gray-700 dark:text-gray-400 text-[18px]">{career.subtittle}</p>
+                            <p className="font-normal text-gray-700 dark:text-gray-300 text-[18px]">{career.subtittle}</p>
                         </motion.div>
 
                     ))}
@@ -321,7 +328,7 @@ const CarrerCounselling = () => {
                         >
 
                             <h5 className="mb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white max-lg:text-2xl">	{career.title} </h5>
-                            <p className="font-normal text-gray-700 dark:text-gray-400 text-[18px]">{career.points}</p>
+                            <p className="font-normal text-gray-700 dark:text-gray-300 text-[18px]">{career.points}</p>
                         </motion.div>
                     ))}
                 </div>
@@ -342,10 +349,10 @@ const CarrerCounselling = () => {
                             <h5 className="mb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white max-lg:text-2xl">
                                 {career.Heading}
                             </h5>
-                            <div className="font-normal text-gray-700 dark:text-gray-400 text-[18px]">
+                            <div className="font-normal text-gray-700 dark:text-gray-300 text-[18px]">
                                 {career.points.map((points, index) => (
                                     <div key={index} className="mb-4">
-                                        <h6 className="font-bold text-2xl text-gray-700 mt-4 max-lg:text-[20px]">{points.title}</h6>
+                                        <h6 className="font-bold text-2xl text-gray-900 dark:text-white mt-4 max-lg:text-[20px]">{points.title}</h6>
                                         <p className='text-[18px] font-normal mt-2'>{points.subtittle}</p>
                                     </div>
                                 ))}

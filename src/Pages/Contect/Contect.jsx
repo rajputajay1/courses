@@ -21,8 +21,8 @@ const Contect = () => {
 
                 {/* <p className='text-6xl font-extrabold text-gray-800 text-center max-lg:text-3xl max-md:text-2xl mt-4 '>Contact Us</p> */}
                 <div className=' pt-7'>
-                    <p className='text-3xl font-bold text-gray-700 text-center max-lg:text-[22px] '>Get In Touch</p>
-                    <p className='text-gray-700 font-semibold text-[20px] max-lg:text-[18px] text-center pt-2'>We’d love to hear from you! Whether you have questions about our services, need more information, or want to schedule an appointment, please reach out to us.</p>
+                    <p className='text-3xl font-bold  text-center max-lg:text-[22px] '>Get In Touch</p>
+                    <p className=' font-semibold text-[20px] max-lg:text-[18px] text-center pt-2'>We’d love to hear from you! Whether you have questions about our services, need more information, or want to schedule an appointment, please reach out to us.</p>
                 </div>
                 <div className='flex mt-5 max-lg:flex-col  gap-10'>
 

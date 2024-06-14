@@ -76,7 +76,7 @@ const About = () => {
 
       
         >ABOUT US</motion.p> */}
-        <div className='text-[18px] font-normal  text-gray-700  pt-5'>
+        <div className='text-[18px] font-normal    pt-5'>
           Intelliflex 360 Degree is a leading provider of DMIT software and Midbrain Activation training in North India. Our goal is to unlock the hidden potential in every individual through scientifically proven techniques and personalized guidance. By understanding one’s inherent strengths, we help align them with the right career path, ensuring success and satisfaction.
         </div>
         <div className='grid grid-cols-3 gap-10  max-lg:grid-cols-2 max-md:grid-cols-1 mt-5 '>
@@ -84,7 +84,7 @@ const About = () => {
 
           {aboutList.map((about) => (
 
-            <div className="relative flex justify-center items-center dark:bg-gray-800 w-full    ">
+            <div className="relative flex justify-center items-center dark:bg-gray-800 w-full  rounded-lg   ">
               <div className="relative cursor-pointer dark:text-white">
                 <span className="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-indigo-500 rounded-lg dark:bg-gray-200"></span>
                 <div className="relative bg-white dark:bg-gray-800 border-2 border-indigo-500 dark:border-gray-300 rounded-lg hover:scale-105 transition duration-500">
@@ -107,7 +107,7 @@ const About = () => {
         </div>
 
         <p className='text-5xl font-semibold text-black text-center max-lg:text-3xl max-md:text-2xl mt-6 underline'>Why Us</p>
-        <div className='grid grid-cols-3 gap-10  max-lg:grid-cols-2 max-md:grid-cols-1 mt-7 '>
+        {/* <div className='grid grid-cols-3 gap-10  max-lg:grid-cols-2 max-md:grid-cols-1 mt-7 '>
 
 
           {whyUs.map((why) => (
@@ -129,7 +129,7 @@ const About = () => {
               </div>
             </div>
           ))}
-        </div>
+        </div> */}
 
         <img src="./why.jpg" alt=""  className='w-full mt-10'/>
       </div>

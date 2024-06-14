@@ -46,8 +46,8 @@ const Mba = () => {
                 {/* <p className='text-6xl font-extrabold text-gray-800 text-center max-lg:text-3xl max-md:text-2xl'>
                     MID BRAIN ACTIVITIES  (MBA)</p> */}
                 
-                <img src="./brain.png" alt=""  className='w-full h-screen' />
-                <p className='font-normal text-gray-700 dark:text-gray-400 text-[18px] pt-5'>Mid Brain Activities typically refer to techniques aimed at stimulating and enhancing the functions of the midbrain, which is responsible for various essential functions, including vision, hearing, motor control, sleep/wake regulation, arousal, and temperature regulation. Here are some key points often associated with Mid Brain Activities:
+                <img src="./brain.png" alt=""  className='w-full lg:h-screen' />
+                <p className='font-normal text-[18px] pt-5'>Mid Brain Activities typically refer to techniques aimed at stimulating and enhancing the functions of the midbrain, which is responsible for various essential functions, including vision, hearing, motor control, sleep/wake regulation, arousal, and temperature regulation. Here are some key points often associated with Mid Brain Activities:
 
                 </p>
                 <div
@@ -62,11 +62,11 @@ const Mba = () => {
                         transition={{ duration: 1, delay: i * 0.3 }}
                         >
                             <h5 className="mb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white max-lg:text-2xl">{item.title}</h5>
-                            <p className="font-normal text-gray-700 dark:text-gray-400 text-[18px]">{item.description}</p>
+                            <p className="font-normal text-gray-900 dark:text-gray-300 text-[18px]">{item.description}</p>
                         </motion.div>
                     ))}
                 </div>
-                <p className='font-bold text-gray-700 dark:text-gray-400 text-[18px] mt-10 text-center'>These activities aim to enhance brain function, improve cognitive abilities, and support overall mental and physical well-being.</p>
+                <p className='font-bold   text-[18px] mt-10 text-center'>These activities aim to enhance brain function, improve cognitive abilities, and support overall mental and physical well-being.</p>
             </div>
 
         </>

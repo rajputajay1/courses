@@ -272,14 +272,7 @@ const CarrerCounselling = () => {
     return (
         <>
             <div className='my-10 lg:px-10 max-lg:px-5'>
-            <motion.img src="./ca.png" alt="" className='w-full h-screen'
-                           initial={{ x: -1000, }}
-                           animate={{ x: 0 }}
-                           transition={{
-                               duration: 3,
-       
-                           }}
-                />
+
                 <motion.p className='text-4xl underline   font-extrabold text-black  text-center max-lg:text-3xl max-md:text-2xl'
 
                     initial={{ x: -1000 }}
@@ -290,6 +283,15 @@ const CarrerCounselling = () => {
                     }}
                 >
                     CAREER COUNSELLING</motion.p>
+                <motion.img src="./ca.png" alt="" className='w-full lg:h-screen mt-5'
+                    initial={{ x: -1000, }}
+                    animate={{ x: 0 }}
+                    transition={{
+                        duration: 3,
+
+                    }}
+                />
+
                 <div className='grid grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1 '>
 
                     {careerList.map((career, i) => (

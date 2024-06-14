@@ -144,7 +144,7 @@ const Dmit = () => {
 
             <div className='my-10 lg:px-10 max-lg:px-5'>
 
-                <motion.img src="./d.jpg" alt="" className='w-full h-screen'
+                <motion.img src="./d.jpg" alt="" className='w-full lg:h-screen'
                     initial={{ x: -1000 }}
                     animate={{ x: [1000, 0] }}
                     transition={{

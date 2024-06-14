@@ -8,7 +8,7 @@ function Main() {
 
             <div className='lg:px-10 max-lg:px-5 my-10'>
                 <div className=' '>
-                    <div className='flex lg:mt-5 max-lg:mt-3  gap-10   max-lg:flex-col  max-lg:px-5'>
+                    <div className='flex lg:mt-5 max-lg:mt-3  gap-10   max-lg:flex-col  '>
                         <motion.div className=' lg:mt-3   lg:w-[70%] '
                             initial={{ x: -1500, }}
                             animate={{ x: 0 }}
@@ -27,7 +27,7 @@ function Main() {
 
                             </p>
                         </motion.div>
-                        <motion.img src="./dmit.png" alt="" className='lg:w-[30%] max-lg:w-full h-72 mt-5'
+                        <motion.img src="./dmit.png" alt="" className='lg:w-[30%]  h-72 '
                             initial={{ x: -1000 }}
                             animate={{ x: [1000, 0] }}
                             transition={{
@@ -53,7 +53,7 @@ function Main() {
                     <p className='text-4xl underline font-extrabold text-black text-center max-lg:text-3xl max-md:text-2xl'>
                         DERMATOGLYPHICS (DMIT)</p>
                     <div className='flex lg:mt-5 max-lg:mt-3  gap-10   max-lg:flex-col '>
-                        <motion.div className='lg:w-[60%] lg:mt-5 max-lg:px-5 '
+                        <motion.div className='lg:w-[60%] lg:mt-5 '
 
 
                             initial={{ x: -1500, }}
@@ -66,7 +66,7 @@ function Main() {
                         >
 
 
-                            <p className='text-2xl font-bold text-gray-800 max-lg:text-[18px] max-md:text-center'>
+                            <p className='text-2xl font-bold text-gray-800 max-lg:text-[20px] max-md:text-center'>
                                 Welcome to Intelliflex 360 Degree
                             </p>
                             <div className='text-[18px] font-normal mt-2 max-sm:text-[18px] flex  flex-col gap-3'>
@@ -102,7 +102,7 @@ function Main() {
                         </motion.div>
 
 
-                        <motion.img src="./dmitimg.png" alt="" className='lg:w-[40%] max-lg:w-full h-96 mt-5 max-lg:px-5'
+                        <motion.img src="./dmitimg.png" alt="" className='lg:w-[40%] max-lg:w-full h-96  '
 
                             initial={{ x: -1000 }}
                             animate={{ x: [1000, 0] }}
@@ -118,7 +118,7 @@ function Main() {
                     </div>
                 </div >
 
-                <div className='mt-8 px-5'>
+                <div className='mt-8 '>
                     <p className='text-4xl underline font-extrabold text-black text-center max-lg:text-3xl max-md:text-2xl'>
                         CAREER COUNSELLING</p>
                     <div className='flex lg:mt-5 max-lg:mt-3  gap-10   max-lg:flex-col'>
@@ -161,7 +161,7 @@ function Main() {
                     </div>
                 </div>
 
-                <div className='mt-8 px-5'>
+                <div className='mt-8 '>
                     <p className='text-4xl underline font-extrabold text-black text-center max-lg:text-3xl max-md:text-2xl'>
                         Personality Test</p>
                     <div className='flex lg:mt-5 max-lg:mt-3  gap-10   max-lg:flex-col'>
